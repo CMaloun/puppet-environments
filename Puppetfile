@@ -18,3 +18,7 @@ forge "https://forgeapi.puppetlabs.com"
   mod 'puppet-testrepo',
     :git => 'https://github.com/CMaloun/puppet-testrepo',
     :branch => 'master'
+
+mod 'apache',
+    :git => 'https://github.com/CMaloun/puppet_apache',
+    :branch => 'master'
