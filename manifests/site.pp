@@ -1,4 +1,4 @@
 node /agent/ {
 
-	include puppet-testrepo
+	include testrepo
 }
