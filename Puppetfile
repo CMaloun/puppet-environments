@@ -8,7 +8,7 @@ forge "https://forgeapi.puppetlabs.com"
 
 # A module from git
   mod 'puppetlabs-ntp',
-    :git => 'git://github.com/puppetlabs/puppetlabs-ntp.git'
+    :git => 'https://github.com/puppetlabs/puppetlabs-ntp.git'
 
 # A module from a git branch/tag
   mod 'puppetlabs-apt',
@@ -16,5 +16,5 @@ forge "https://forgeapi.puppetlabs.com"
     :ref => '1.4.x'
 
   mod 'puppet-testrepo',
-    :git => 'https://github.com/CMaloun/puppet-testrepo
+    :git => 'https://github.com/CMaloun/puppet-testrepo',
     :branch => 'master'
